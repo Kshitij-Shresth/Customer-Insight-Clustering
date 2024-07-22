@@ -39,6 +39,6 @@ vii) K-Means Clustering:
 Applying K-Means clustering with the optimal number of clusters to segment customers into distinct groups.
 
 
-Visualization:
+ix) Visualization:
 
 Visualizing the customer segments using a 3D scatter plot to illustrate the distribution of clusters based on purchase frequency, total spend, and average purchase value.
