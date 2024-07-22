@@ -4,37 +4,37 @@ By analyzing retail transaction data, we can identify key customer segments, whi
 
 
 
-Data Preprocessing:
+i) Data Preprocessing:
 
 Conversion of the InvoiceDate column to datetime format and handling missing values by dropping rows with missing CustomerID.
 
 
-Data Aggregation:
+ii) Data Aggregation:
 
 Aggregating data at the customer level to derive purchase frequency, total quantity purchased, and average unit price.
 
 
-Feature Engineering:
+iii) Feature Engineering:
 
 Calculating total spend and average purchase value per customer.
 
 
-Feature Selection:
+iv) Feature Selection:
 
 Selecting key features such as purchase frequency, total spend, and average purchase value for clustering.
 
 
-Data Normalization:
+v) Data Normalization:
 
 Normalizing the selected features using StandardScaler to ensure all features contribute equally to the clustering process.
 
 
-Optimal Cluster Determination:
+vi) Optimal Cluster Determination:
 
 Utilizing the Elbow Method to determine the optimal number of clusters by plotting the sum of squared errors (SSE) for different cluster counts.
 
 
-K-Means Clustering:
+vii) K-Means Clustering:
 
 Applying K-Means clustering with the optimal number of clusters to segment customers into distinct groups.
 
