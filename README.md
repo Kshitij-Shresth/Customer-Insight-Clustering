@@ -63,6 +63,20 @@ Scikit-learn: For data normalization and clustering algorithms.
 3: Run the script
 ``python customer_segmentation.py``
 
-Conclusion:
+Conclusions:
 
-By segmenting customers based on their purchasing behavior, businesses can tailor marketing strategies to each customer group, leading to more effective and efficient marketing efforts. This project demonstrates the process of customer segmentation using K-Means clustering, providing valuable insights for strategic decision-making.
+Marketing Strategy: The distinct segmentation allows for targeted marketing strategies, focusing on high-value customers for loyalty programs and low-value customers for acquisition campaigns.
+
+Optimal Cluster Identification: The Elbow Method plot indicates an optimal number of clusters at K=4, where the sum of squared errors (SSE) shows a pronounced inflection point, suggesting diminishing returns for adding more clusters beyond this point.
+
+Low Variance within Clusters: The sharp decline in SSE up to 4 clusters indicates that the clusters formed within this range have low intra-cluster variance, enhancing the homogeneity within each cluster.
+
+Dominance of Low-Frequency Purchasers: The 3D scatter plot reveals a dominant cluster with low purchase frequency and low total spend, indicating a significant portion of customers with infrequent and low-value transactions.
+
+
+
+![image](https://github.com/user-attachments/assets/f1f7a023-af3b-47e8-8c3c-f060f2dee156)
+
+
+![image](https://github.com/user-attachments/assets/d42e1aa6-409e-4f6c-a616-a5c2ff9cb893)
+
