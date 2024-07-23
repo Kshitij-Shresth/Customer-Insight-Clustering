@@ -42,3 +42,27 @@ Applying K-Means clustering with the optimal number of clusters to segment custo
 ix) Visualization:
 
 Visualizing the customer segments using a 3D scatter plot to illustrate the distribution of clusters based on purchase frequency, total spend, and average purchase value.
+
+
+Tools and Technologies
+
+
+Pandas: For data manipulation and analysis.
+
+Matplotlib: For creating visualizations.
+
+Scikit-learn: For data normalization and clustering algorithms.
+
+
+1: Clone the repository:
+``git clone https://github.com/yourusername/Customer-Insight-Clustering.git``
+
+2: Navigate to the project directory:
+``cd Customer-Insight-Clustering``
+
+3: Run the script
+``python customer_segmentation.py``
+
+Conclusion:
+
+By segmenting customers based on their purchasing behavior, businesses can tailor marketing strategies to each customer group, leading to more effective and efficient marketing efforts. This project demonstrates the process of customer segmentation using K-Means clustering, providing valuable insights for strategic decision-making.
